@@ -1,9 +1,12 @@
 Download Python
 ==================
 Download the Anaconda distribution of Python. This provides Python and the Jupyter notebook environment. 
-[Anaconda Python Distribution](https://www.continuum.io/downloads)
 
+**Download Python 3.5:** [Anaconda Python Distribution](https://www.continuum.io/downloads)
+
+##References##
 [Anaconda Cheet Sheet](http://conda.pydata.org/docs/using/cheatsheet.html)
+
 [Jupyter Reference Sheet](https://damontallen.github.io/IPython-quick-ref-sheets/)
 
 
