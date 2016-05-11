@@ -5,8 +5,6 @@ Download Anaconda
 [Anaconda Cheet Sheet](http://conda.pydata.org/docs/using/cheatsheet.html)
 [Ipython Reference Sheet](https://damontallen.github.io/IPython-quick-ref-sheets/)
 
-##Troubleshooting##
-[How can I tell if Windows is 32 bit or 64 bit?](http://windows.microsoft.com/en-us/windows/32-bit-and-64-bit-windows#1TC=windows-7)
 
 Navigate to the anaconda shell
 ==============================
