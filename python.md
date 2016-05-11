@@ -1,9 +1,10 @@
-Download Anaconda
+Download Python
 ==================
+Download the Anaconda distribution of Python. This provides Python and the Jupyter notebook environment. 
 [Anaconda Python Distribution](https://www.continuum.io/downloads)
 
 [Anaconda Cheet Sheet](http://conda.pydata.org/docs/using/cheatsheet.html)
-[Ipython Reference Sheet](https://damontallen.github.io/IPython-quick-ref-sheets/)
+[Jupyter Reference Sheet](https://damontallen.github.io/IPython-quick-ref-sheets/)
 
 
 Navigate to the anaconda shell
@@ -29,6 +30,7 @@ Time Series & Catagorical Data Analysis
 
 ```
 conda install numpy
+conda install scipy
 conda install matplotlib
 conda install pandas
 conda install basemap #maybe
