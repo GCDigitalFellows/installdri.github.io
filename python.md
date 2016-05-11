@@ -44,8 +44,8 @@ conda install sklearn
 NLTK
 ----
 ```
-   conda install nltk
-   python -m nltk.downloader all
+conda install nltk
+python -m nltk.downloader all
 ```
 ##Troubleshooting##
 If the downloader does not work, install the corpus via a local copy (on the USB):
@@ -65,18 +65,18 @@ If the downloader does not work, install the corpus via a local copy (on the USB
   ii) type `python`
 5) Once you're in the python shell, type:
 
-  ```
-  >>> import nltk
-  >>> nltk.data.path.append(path_you_copied)
-  ```
+```
+>>> import nltk
+>>> nltk.data.path.append(path_you_copied)
+```
 
   Replace path_you_copied with the path you found and stored in 2 & 3. For example, if I had copied 
   my data to `'C:\\Users\\hannah\\Anaconda\\lib\\nltk_data'`, then I would type:
 
-  ```
-  >>> import nltk
-  >>> nltk.data.path.append('C:\\Users\\hannah\\Anaconda\\lib\\nltk_data')
-  ```
+```
+>>> import nltk
+>>> nltk.data.path.append('C:\\Users\\hannah\\Anaconda\\lib\\nltk_data')
+```
   
 
 
