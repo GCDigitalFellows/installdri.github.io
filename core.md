@@ -1,12 +1,15 @@
 Command Line
 ============
 **OSX:**: [How to install x-code command line tools](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/)
+
 **Windows**: [git-windows-tools](https://git-for-windows.github.io/)
 
 Git
 ============
 **OSX Install:** [git](https://git-scm.com/)
+
 **Windows Install:** [git-windows-tools](https://git-for-windows.github.io/)
+
 **Register: ** [Github](https://github.com/)
 
 Python
