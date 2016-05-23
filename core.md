@@ -24,7 +24,7 @@ Download the Anaconda distribution of Python. This provides Python and the Jupyt
 
 **Download Python 3.5:** [Anaconda Python Distribution](https://www.continuum.io/downloads)
 
-How to find anaconda:
+How to find anaconda terminal:
 =====================
 
 ##References##
@@ -34,6 +34,12 @@ How to find anaconda:
 
 Databases
 ==========
+
+**Download & Install:** [SQLiteStudio](http://sqlitestudio.pl/)
+
+Open the anaconda terminal and type: 
+
+`conda install sqlite -y`
 
 Troubleshooting
 ===============
