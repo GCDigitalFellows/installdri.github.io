@@ -14,31 +14,31 @@ Python Libraries:
 Web Framework Development
 --------------------------
 ```
-conda install flask
+conda install flask -y
 ```
 
 Time Series & Catagorical Data Analysis
 ----------------------------------------
 
 ```
-conda install numpy
-conda install scipy
-conda install matplotlib
-conda install pandas
-conda install basemap #maybe
+conda install numpy -y
+conda install scipy -y
+conda install matplotlib -y
+conda install pandas -y
+conda install basemap -y #maybe
 ```
 
 Machine Learning
 ----------------
 Install everything from *Time Series & Catagorical Data Analysis* and:
 ```
-conda install sklearn
+conda install sklearn -y
 ```
 
 NLTK
 ----
 ```
-conda install nltk
+conda install nltk -y
 python -m nltk.downloader all
 ```
 ##Troubleshooting##
