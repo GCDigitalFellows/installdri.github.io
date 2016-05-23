@@ -1,6 +1,8 @@
 Text Editor
 ===========
-A text editor is a simple notepad type application. For the DRI, we will be using the sublime text editor because it supports [syntax highlighting](https://en.wikipedia.org/wiki/Syntax_highlighting) and works on every operating system. Download the sublime text editor here: [sublime](https://www.sublimetext.com/)
+A text editor is a simple notepad type application. For the DRI, we will be using the sublime text editor because it supports [syntax highlighting](https://en.wikipedia.org/wiki/Syntax_highlighting) and works on every operating system. 
+
+**Download sublime:** [sublime](https://www.sublimetext.com/)
 
 Command Line
 ============
@@ -14,7 +16,7 @@ Git
 
 **Windows Install:** [git-windows-tools](https://git-for-windows.github.io/)
 
-**Register: ** [Github](https://github.com/)
+**Register:** [Github](https://github.com/)
 
 Python
 ======
