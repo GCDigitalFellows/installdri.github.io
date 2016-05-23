@@ -1,3 +1,7 @@
+Text Editor
+===========
+A text editor is a simple notepad type application. For the DRI, we will be using the sublime text editor because it supports [syntax highlighting](https://en.wikipedia.org/wiki/Syntax_highlighting) and works on every operating system. Download the sublime text editor here: [sublime](https://www.sublimetext.com/)
+
 Command Line
 ============
 **OSX:**: [How to install x-code command line tools](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/)
