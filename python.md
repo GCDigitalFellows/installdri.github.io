@@ -2,7 +2,7 @@ Python Libraries:
 =================
 Install the packages for the Python course via the `conda` Python package system. Links to the libraries are provided **only** for reference.
 
-1) open the [anaconda shell](core.md/#How-to-open-an-anaconda-terminal)
+1) open the [anaconda terminal](anaconda.md)
 
 2) find the class you plan to take in the list below
 
