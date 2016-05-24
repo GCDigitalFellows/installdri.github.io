@@ -23,8 +23,11 @@ Mac:
 Conda is built into the mac terminal, so you can follow the instructions for opening a shell:
 
 ### Via search:
+
 1) Press `⌘(command)`and `spacebar`
+
 2) Type `terminal`
+
 3) Click on the terminal icon: 
 
 ![terminal](Screen Shot 2016-05-23 at 11.44.14 PM.png)
