@@ -6,7 +6,7 @@ HTML/CSS/JavaScript
 
 Mapping
 =======
-**Regsiter:** [CartoDB](https://cartodb.com/)
+**Register:** [CartoDB](https://cartodb.com/)
 
 Data Challenge
 ===============
