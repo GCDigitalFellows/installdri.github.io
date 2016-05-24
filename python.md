@@ -1,58 +1,42 @@
-
-Navigate to the anaconda shell
-==============================
-**Windows:**
-
-1) go the the __start__ menu
-
-2) Click `All apps` -> `Anaconda` -> `Anaconda Prompt` 
-
-or:
-
-1) enter `Anaconda` into the search bar
-
-2) click `Anaconda Prompt`:
-
-
-**Mac: **
-1) Press `⌘(command)`and `spacebar`
-2) Type `terminal`
-3) Click on the terminal icon: 
-
-
 Python Libraries:
 =================
-1) open the anaconda shell
+Install the packages for the Python course via the `conda` Python package system. Links to the libraries are provided **only** for reference.
 
-2) find the class you plan to take
+1) open the [anaconda shell](core.md/#How-to-open-an-anaconda-terminal)
+
+2) find the class you plan to take in the list below
 
 3) type the commands listed for each course. 
 
 Web Framework Development
 --------------------------
+Install [flask](http://flask.pocoo.org/):
 ```
 conda install flask -y
 ```
 
 Time Series & Catagorical Data Analysis
 ----------------------------------------
-
+Install [numpy](http://www.numpy.org/), [scipy](https://www.scipy.org/), 
+[matplotlib](http://matplotlib.org/), & [pandas](http://pandas.pydata.org/):
 ```
 conda install numpy -y
 conda install scipy -y
 conda install matplotlib -y
 conda install pandas -y
-conda install basemap -y #maybe
 ```
 
 Machine Learning
 ----------------
-Install everything from *Time Series & Catagorical Data Analysis* and:
+Install everything from 
+[Time Series & Catagorical Data Analysis](#Time-Series-&-Catagorical-Data-Analysis)
+and [sklearn](http://scikit-learn.org/stable/):
 ```
 conda install sklearn -y
 ```
 
 NLTK
+Install the [NLTK](http://www.nltk.org/) library:
 ----
 ```
 conda install nltk -y
