@@ -36,8 +36,10 @@ conda install sklearn -y
 ```
 
 NLTK
-Install the [NLTK](http://www.nltk.org/) library:
 ----
+
+Install the [NLTK](http://www.nltk.org/) library:
+
 ```
 conda install nltk -y
 python -m nltk.downloader all
@@ -58,6 +60,7 @@ If the downloader does not work, install the corpus via a local copy (on the USB
   i) (opening a command line)[cmd.md]
 
   ii) type `python`
+  
 5) Once you're in the python shell, type:
 
 ```
