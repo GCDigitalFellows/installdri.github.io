@@ -1,7 +1,24 @@
 
 Navigate to the anaconda shell
 ==============================
-[screen shot tutorial/manual]
+**Windows:**
+
+1) go the the __start__ menu
+
+2) Click `All apps` -> `Anaconda` -> `Anaconda Prompt` 
+
+or:
+
+1) enter `Anaconda` into the search bar
+
+2) click `Anaconda Prompt`:
+
+
+**Mac: **
+1) Press `⌘(command)`and `spacebar`
+2) Type `terminal`
+3) Click on the terminal icon: 
+
 
 Python Libraries:
 =================
