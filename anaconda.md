@@ -12,7 +12,7 @@ Windows:
 
 ### Via start:
 
-1) go the the __start__ menu
+1) Click on __start__
 
 2) Click `All apps` -> `Anaconda` -> `Anaconda Prompt` :
 
@@ -30,5 +30,8 @@ Conda is built into the mac terminal, so you can follow the instructions for ope
 ![terminal](Screen Shot 2016-05-23 at 11.44.14 PM.png)
 
 ### Via finder:
+1) Click on __finder__
+
+2) Click `Applications` -> `Utilities` -> `Terminal`:
 
 ![finder](Screen Shot 2016-05-23 at 11.47.27 PM.png)
