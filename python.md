@@ -56,9 +56,9 @@ If the downloader does not work, install the corpus via a local copy (on the USB
 
 4) Open a python interpreter: 
 
-  i)open the [anaconda prompt](anaconda.md)
+  1) open the [anaconda prompt](anaconda.md)
 
-  ii) type `python`
+  2) type `python`
   
 5) Once you're in the python interpreter, type:
 
