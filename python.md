@@ -28,8 +28,7 @@ conda install pandas -y
 
 Machine Learning
 ----------------
-Install everything from 
-[Time Series & Catagorical Data Analysis](#Time-Series-&-Catagorical-Data-Analysis)
+Install everything from [Time Series & Catagorical Data Analysis](##time-series--catagorical-data-analysis)
 and [sklearn](http://scikit-learn.org/stable/):
 ```
 conda install sklearn -y
@@ -44,7 +43,7 @@ Install the [NLTK](http://www.nltk.org/) library:
 conda install nltk -y
 python -m nltk.downloader all
 ```
-##Troubleshooting##
+###Troubleshooting
 If the downloader does not work, install the corpus via a local copy (on the USB):
 1) Copy the contents of the folder on the usb to '...\\Anaconda\\lib'. The `lib` folder should now containd a folder named `nltk_data`
 
