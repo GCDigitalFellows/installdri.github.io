@@ -28,6 +28,6 @@ Troubleshooting: You may need to [change Security & Privacy settings](https://su
 
 
 
-Data Challenge
+Project Laboratory
 ===============
 **Register:** [Github](https://github.com/)
