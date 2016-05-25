@@ -45,22 +45,18 @@ python -m nltk.downloader all
 ```
 ###Troubleshooting
 If the downloader does not work, install the corpus via a local copy (on the USB):
-1) Copy the contents of the folder on the usb to '...\\Anaconda\\lib'. The `lib` folder should now containd a folder named `nltk_data`
+1) copy the contents of the folder on the usb to '...\\Anaconda\\lib'. The `lib` folder should now containd a folder named `nltk_data`
 
-2) Find the path of the nltk_data folder:
+2) find the path of the nltk_data folder:
   * [Find path on windows](http://www.dummies.com/how-to/content/how-to-find-a-folders-path-name-in-windows-explore.html)
 
   * [Find path on OSX](http://osxdaily.com/2015/11/05/copy-file-path-name-text-mac-os-x-finder/)
 
-3) Save that path using your text editor of choice
+3) save that path using your text editor of choice
 
-4) Open a python interpreter: 
-
-  1) open the [anaconda prompt](anaconda.md)
-
-  2) type `python`
+4) open the [anaconda prompt](anaconda.md) and type `python`
   
-5) Once you're in the python interpreter, type:
+5) once in the python interpreter, you should see `>>>`. Then type:
 
 ```
 >>> import nltk
