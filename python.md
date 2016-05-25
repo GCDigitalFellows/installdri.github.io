@@ -52,22 +52,22 @@ If the downloader does not work, install the corpus via a local copy (on the USB
 
   * [Find path on OSX](http://osxdaily.com/2015/11/05/copy-file-path-name-text-mac-os-x-finder/)
 
-3) Store that path to your text editor of choice
+3) Save that path using your text editor of choice
 
-4) Open a python shell by: 
+4) Open a python interpreter: 
 
-  i) (opening a command line)[cmd.md]
+  i)open the [anaconda prompt](anaconda.md)
 
   ii) type `python`
   
-5) Once you're in the python shell, type:
+5) Once you're in the python interpreter, type:
 
 ```
 >>> import nltk
 >>> nltk.data.path.append(path_you_copied)
 ```
 
-  Replace path_you_copied with the path you found and stored in 2 & 3. For example, if I had copied 
+  Replace `path_you_copied` with the path you found and stored in 2 & 3. For example, if I had copied 
   my data to `'C:\\Users\\hannah\\Anaconda\\lib\\nltk_data'`, then I would type:
 
 ```
