@@ -12,7 +12,7 @@ Command Line
 
 Git
 ============
-**OSX Install:** [git](https://git-scm.com/)
+**OSX/Linux Install:** [git](https://git-scm.com/)
 
 **Windows Install:** [git-windows-tools](https://git-for-windows.github.io/)
 
