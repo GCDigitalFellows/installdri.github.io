@@ -31,7 +31,7 @@ Machine Learning
 Install everything from [Time Series & Catagorical Data Analysis](#time-series--catagorical-data-analysis)
 and [sklearn](http://scikit-learn.org/stable/):
 ```
-conda install sklearn -y
+conda install scikit-learn -y
 ```
 
 NLTK
