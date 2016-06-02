@@ -44,7 +44,7 @@ conda install nltk -y
 ```
 While still in the conda shell, type `python`
 
-once in the python interpreter, you should see `>>>`. Then type:
+once in the python interpreter, you should see `>>>`. Then type (1st line then press enter, 2nd line then press enter):
 
 ```python
 import nltk
