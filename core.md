@@ -6,7 +6,14 @@ A text editor is a simple notepad type application. For the DRI, we will be usin
 
 Command Line
 ============
-**OSX:**: [How to install x-code command line tools](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/)
+**OSX:**: 
+
+1) open a [terminal](https://github.com/GCDigitalFellows/installdri.github.io/blob/master/anaconda.md#mac)
+
+2) type the following in the terminal:
+```
+xcode-select --install
+```
 
 **Windows**: [git-windows-tools](https://git-for-windows.github.io/)
 
