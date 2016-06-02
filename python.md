@@ -46,9 +46,9 @@ While still in the conda shell, type `python`
 
 once in the python interpreter, you should see `>>>`. Then type:
 
-```
->>> import nltk
->>> nltk.download('all', halt_on_error=False)
+```python
+import nltk
+nltk.download('all', halt_on_error=False)
 ```
 
 ###Troubleshooting
@@ -66,17 +66,17 @@ If the downloader does not work, install the corpus via a local copy (provided o
   
 5) once in the python interpreter, you should see `>>>`. Then type:
 
-```
->>> import nltk
->>> nltk.data.path.append(path_you_copied)
+```python
+import nltk
+nltk.data.path.append(path_you_copied)
 ```
 
   Replace `path_you_copied` with the path you found and stored in 2 & 3. For example, if I had copied 
   my data to `'C:\\Users\\hannah\\Anaconda\\lib\\nltk_data'`, then I would type:
 
-```
->>> import nltk
->>> nltk.data.path.append('C:\\Users\\hannah\\Anaconda\\lib\\nltk_data')
+```python
+import nltk
+nltk.data.path.append('C:\\Users\\hannah\\Anaconda\\lib\\nltk_data')
 ```
   
 
