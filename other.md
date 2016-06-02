@@ -4,7 +4,7 @@ HTML/CSS/JavaScript
 
 Mapping
 =======
-**Register:** [CartoDB](https://cartodb.com/)
+**Register at:** [CartoDB](https://cartodb.com/)
 
 **Windows/Linux Install:** [QGIS](http://www.qgis.org/en/site/)
 
