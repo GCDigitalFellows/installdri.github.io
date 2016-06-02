@@ -4,6 +4,8 @@ A text editor is a simple notepad type application. For the DRI, we will be usin
 
 **Download sublime:** [sublime](https://www.sublimetext.com/)
 
+**OSX:** [add to path](http://www.sublimetext.com/docs/3/osx_command_line.html)
+
 Command Line
 ============
 **OSX:**: 
