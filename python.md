@@ -50,7 +50,7 @@ nltk.download('all', halt_on_error=False)
 ```
 
 ###Troubleshooting
-If the downloader does not work, download the corpus by [clicking here](https://github.com/nltk/nltk_data/archive/gh-pages.zip) or use a local copy (provided on a USB at the installathon):
+If the downloader does not work, download the corpus by [clicking here](https://github.com/nltk/nltk_data/archive/gh-pages.zip) or use a local copy:
 
 1) copy the contents of the folder on the usb to '...\\Anaconda\\lib'. The `lib` folder should now containd a folder named `nltk_data`
 
