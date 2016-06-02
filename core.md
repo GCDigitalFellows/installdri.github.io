@@ -53,4 +53,5 @@ Troubleshooting
 ===============
 [How can I tell if Windows is 32 bit or 64 bit?](http://windows.microsoft.com/en-us/windows/32-bit-and-64-bit-windows#1TC=windows-7)
 
+[Change Security & Privacy settings on OS/X](https://support.apple.com/en-us/HT202491) to allow app downloads from outside sources. 
 
