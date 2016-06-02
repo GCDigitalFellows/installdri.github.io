@@ -8,7 +8,7 @@ A text editor is a simple notepad type application. For the DRI, we will be usin
 
 Command Line
 ============
-**OSX:**: 
+**OSX:**
 
 1) open a [terminal](https://github.com/GCDigitalFellows/installdri.github.io/blob/master/anaconda.md#mac)
 
