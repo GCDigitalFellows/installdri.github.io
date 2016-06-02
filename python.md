@@ -4,9 +4,7 @@ Install the packages for the Python course via the `conda` Python package system
 
 1) open the [anaconda terminal](anaconda.md)
 
-2) find the class you plan to take in the list below
-
-3) type the commands listed for each course. 
+2) type the commands listed for each session: 
 
 Web Framework Development
 --------------------------
