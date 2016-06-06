@@ -22,6 +22,11 @@ Take any of the listed paths, for example "/usr/local/bin" and then type:
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin
 ```
 
+If you get a `permission denied` error, type:
+
+```bash
+sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin
+```
 
 Command Line
 ============
