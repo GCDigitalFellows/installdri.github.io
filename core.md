@@ -4,7 +4,22 @@ A text editor is a simple notepad type application. For the DRI, we will be usin
 
 **Download sublime:** [sublime](https://www.sublimetext.com/)
 
-**Make it so commandline can see the program:** [OSX](http://www.sublimetext.com/docs/3/osx_command_line.html), [Windows](https://scotch.io/tutorials/open-sublime-text-from-the-command-line-using-subl-exe-windows) 
+**Make it so commandline can see the program:**
+
+[Windows](https://scotch.io/tutorials/open-sublime-text-from-the-command-line-using-subl-exe-windows) 
+
+[OSX]: 
+1) open a [terminal](anaconda.md#md)
+2) type the following:
+
+```bash
+echo $PATH$
+```
+Take any of the listed paths, for example "/usr/local/bin" and then type:
+```bash
+ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin
+```
+
 
 Command Line
 ============
