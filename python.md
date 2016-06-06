@@ -50,35 +50,12 @@ nltk.download('all', halt_on_error=False)
 ```
 
 ###Troubleshooting
-If the downloader does not work, download the corpus by [clicking here](https://github.com/nltk/nltk_data/archive/gh-pages.zip) or use a local copy:
-
-1) copy the contents of the folder on the usb to '...\\Anaconda\\lib'. The `lib` folder should now containd a folder named `nltk_data`
-
-2) find the path of the nltk_data folder:
-  * [Find path on windows](http://www.dummies.com/how-to/content/how-to-find-a-folders-path-name-in-windows-explore.html)
-
-  * [Find path on OSX](http://osxdaily.com/2015/11/05/copy-file-path-name-text-mac-os-x-finder/)
-
-3) save that path using your text editor of choice
-
-4) open the [anaconda prompt](anaconda.md) and type `python`
-  
-5) once in the python interpreter, you should see `>>>`. Then type:
-
+If the downloader does not work, download the corpus by [clicking here](https://github.com/nltk/nltk_data/archive/gh-pages.zip) or use a local copy. Then 
+1) Open an [anaconda terminal](anaconda.md)
+2) type:
 ```python
 import nltk
-nltk.data.path.append(path_you_copied)
+nltk.data.path
 ```
-
-  Replace `path_you_copied` with the path you found and stored in 2 & 3. For example, if I had copied 
-  my data to `'C:\\Users\\hannah\\Anaconda\\lib\\nltk_data'`, then I would type:
-
-```python
-import nltk
-nltk.data.path.append('C:\\Users\\hannah\\Anaconda\\lib\\nltk_data')
-```
-  
-
-
-
+Copy the data to any of the folders listed  by the nltk.data.path command. If the command doesn't return anything, call for a helper.
 
