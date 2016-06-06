@@ -59,7 +59,25 @@ nltk.data.path
 ```
 1) Copy the data to any of the folders listed  by the nltk.data.path command. 
 2) Put the `corpora` folder in the top level of `nltk_data`
-If the command doesn't return anything, call for a helper.
+If the command doesn't return anything, call for a helper. If you want to use a custom folder:
+
+1) copy the contents of the folder on the usb to '...\\Anaconda\\lib'. The `lib` folder should now containd a folder named `nltk_data`
+
+2) find the path of the nltk_data folder:
+  * [Find path on windows](http://www.dummies.com/how-to/content/how-to-find-a-folders-path-name-in-windows-explore.html)
+
+  * [Find path on OSX](http://osxdaily.com/2015/11/05/copy-file-path-name-text-mac-os-x-finder/)
+
+3) save that path using your text editor of choice
+
+4) open the [anaconda prompt](anaconda.md) and type `python`
+  
+5) once in the python interpreter, you should see `>>>`. Then type:
+
+```python
+import nltk
+nltk.data.path = nltk.data.path.append(path_you_copied)
+```
 
 Check if it install properly by opening a python terminal and typing
 
