@@ -6,10 +6,12 @@ A text editor is a simple notepad type application. For the DRI, we will be usin
 
 **Make it so commandline can see the program:**
 
-[Windows](https://scotch.io/tutorials/open-sublime-text-from-the-command-line-using-subl-exe-windows) 
+** [Windows](https://scotch.io/tutorials/open-sublime-text-from-the-command-line-using-subl-exe-windows) **
 
-[OSX]: 
+**OSX:**
+
 1) open a [terminal](anaconda.md#md)
+
 2) type the following:
 
 ```bash
