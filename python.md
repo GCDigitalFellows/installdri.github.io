@@ -57,5 +57,14 @@ If the downloader does not work, download the corpus by [clicking here](https://
 import nltk
 nltk.data.path
 ```
-Copy the data to any of the folders listed  by the nltk.data.path command. If the command doesn't return anything, call for a helper.
+1) Copy the data to any of the folders listed  by the nltk.data.path command. 
+2) Put the `corpora` folder in the top level of `nltk_data`
+If the command doesn't return anything, call for a helper.
+
+Check if it install properly by opening a python terminal and typing
+
+```python
+import nltk.book
+```
+
 
