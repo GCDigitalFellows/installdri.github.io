@@ -51,8 +51,11 @@ nltk.download('all', halt_on_error=False)
 
 ###Troubleshooting
 If the downloader does not work, download the corpus by [clicking here](https://github.com/nltk/nltk_data/archive/gh-pages.zip) or use a local copy. Then 
+
 1) Open an [anaconda terminal](anaconda.md)
+
 2) type:
+
 ```python
 import nltk
 nltk.data.path
