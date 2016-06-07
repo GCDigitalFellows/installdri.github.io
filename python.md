@@ -62,22 +62,27 @@ nltk.data.path
 ```
 1) Copy the data to any of the folders listed  by the nltk.data.path command.
 
-2) Put the `corpora` folder in the top level of `nltk_data` (meaning that when you click on the `nltk_data` folder, the `corpora` folder should be there).
+2) Put everything in the `packages` folder in the top level of `nltk_data`. This means, that the contents of your  `nltk_data` folder should be as follows:
+```bash
+test:nltk_data hannah$ ls
+Makefile	     corpora	     index.xsl	    stemmers
+README.txt	   grammars	    misc		        taggers
+chunkers	     help		       models		      tokenizers
+collections	  index.xml	   sentiment	    tools
+```
 
 If you want to use a folder in a location that isn't listed:
 
-1) copy the contents of the folder on the usb to the location you want, such as '...\\Anaconda\\lib'. The `lib` folder should now contain a folder named `nltk_data` (which should still have `corpora` at the top level).
-
-2) find the path of the new nltk_data folder:
+1) find the path of your your `nltk_data folder`:
   * [Find path on windows](http://www.dummies.com/how-to/content/how-to-find-a-folders-path-name-in-windows-explore.html)
 
   * [Find path on OSX](http://osxdaily.com/2015/11/05/copy-file-path-name-text-mac-os-x-finder/)
 
-3) save that path using your text editor of choice
+2) save that path using your text editor of choice
 
-4) open the [anaconda prompt](anaconda.md) and type `python`
+3) open the [anaconda prompt](anaconda.md) and type `python`
   
-5) once in the python interpreter, you should see `>>>`. Then type:
+4) once in the python interpreter, you should see `>>>`. Then type:
 
 ```python
 import nltk
@@ -90,7 +95,8 @@ Check if it installed properly by opening a python terminal and typing
 import nltk.book
 ```
 
-# Check other installs
+Check other installs
+====================
 Check if a library is installed by trying to import it into python. First type `python` and then once in the interpreter, you should see `>>>`. Then type:
 
 ```python
