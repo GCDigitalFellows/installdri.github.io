@@ -57,9 +57,11 @@ If the downloader does not work, download the corpus by [clicking here](https://
 import nltk
 nltk.data.path
 ```
-1) Copy the data to any of the folders listed  by the nltk.data.path command. 
+1) Copy the data to any of the folders listed  by the nltk.data.path command.
+
 2) Put the `corpora` folder in the top level of `nltk_data`
-If the command doesn't return anything, call for a helper. If you want to use a custom folder:
+
+If you want to use a custom folder:
 
 1) copy the contents of the folder on the usb to '...\\Anaconda\\lib'. The `lib` folder should now containd a folder named `nltk_data`
 
@@ -79,10 +81,20 @@ import nltk
 nltk.data.path = nltk.data.path.append(path_you_copied)
 ```
 
-Check if it install properly by opening a python terminal and typing
+Check if it installed properly by opening a python terminal and typing
 
 ```python
 import nltk.book
 ```
 
+# Check other installs
+Check if a library is installed by trying to import it into python. First type `python` and then once in the interpreter, you should see `>>>`. Then type:
 
+```python
+import flask
+import scipy
+import pandas
+import matplotlib
+import sklearn
+import nltk
+```
