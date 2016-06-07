@@ -60,33 +60,17 @@ If the downloader does not work, download the corpus by [clicking here](https://
 import nltk
 nltk.data.path
 ```
-1) Copy the data to any of the folders listed  by the nltk.data.path command.
+1) Copy the data to **any** of the folders listed  by the nltk.data.path command.
 
-2) Put everything in the `packages` folder in the top level of `nltk_data`. This means, that the contents of your  `nltk_data` folder should be as follows:
+2) If none of them exist, then create the folder and copy the data there.
+
+3) Put everything in the `packages` folder in the top level of `nltk_data`. This means, that the contents of your  `nltk_data` folder should be as follows:
 ```bash
 test:nltk_data hannah$ ls
 Makefile	     corpora	     index.xsl	    stemmers
 README.txt	   grammars	    misc		        taggers
 chunkers	     help		       models		      tokenizers
 collections	  index.xml	   sentiment	    tools
-```
-
-If you want to use a folder in a location that isn't listed:
-
-1) find the path of your your `nltk_data folder`:
-  * [Find path on windows](http://www.dummies.com/how-to/content/how-to-find-a-folders-path-name-in-windows-explore.html)
-
-  * [Find path on OSX](http://osxdaily.com/2015/11/05/copy-file-path-name-text-mac-os-x-finder/)
-
-2) save that path using your text editor of choice
-
-3) open the [anaconda prompt](anaconda.md) and type `python`
-  
-4) once in the python interpreter, you should see `>>>`. Then type:
-
-```python
-import nltk
-nltk.data.path = nltk.data.path.append(path_you_copied)
 ```
 
 Check if it installed properly by opening a python terminal and typing
