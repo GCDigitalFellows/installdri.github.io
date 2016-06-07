@@ -1,4 +1,5 @@
-#conda install script
+#utility script to install
+#python libraries except nltk
 conda install numpy -y
 conda install scipy -y
 conda install matplotlib -y
