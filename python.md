@@ -62,13 +62,13 @@ nltk.data.path
 ```
 1) Copy the data to any of the folders listed  by the nltk.data.path command.
 
-2) Put the `corpora` folder in the top level of `nltk_data`
+2) Put the `corpora` folder in the top level of `nltk_data` (meaning that when you click on the `nltk_data` folder, the `corpora` folder should be there).
 
-If you want to use a custom folder:
+If you want to use a folder in a location that isn't listed:
 
-1) copy the contents of the folder on the usb to '...\\Anaconda\\lib'. The `lib` folder should now containd a folder named `nltk_data`
+1) copy the contents of the folder on the usb to the location you want, such as '...\\Anaconda\\lib'. The `lib` folder should now contain a folder named `nltk_data` (which should still have `corpora` at the top level).
 
-2) find the path of the nltk_data folder:
+2) find the path of the new nltk_data folder:
   * [Find path on windows](http://www.dummies.com/how-to/content/how-to-find-a-folders-path-name-in-windows-explore.html)
 
   * [Find path on OSX](http://osxdaily.com/2015/11/05/copy-file-path-name-text-mac-os-x-finder/)
