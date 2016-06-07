@@ -64,7 +64,7 @@ nltk.data.path
 
 2) If none of them exist, then create the folder and copy the data there.
 
-3) Put everything in the `packages` folder in the top level of `nltk_data`. This means, that the contents of your  `nltk_data` folder should be as follows:
+3) Put everything in the `packages` folder in the top level of `nltk_data`. This means that the contents of your  `nltk_data` folder should be as follows:
 ```bash
 test:nltk_data hannah$ ls
 Makefile	     corpora	     index.xsl	    stemmers
