@@ -72,6 +72,18 @@ Databases
 
 This doesn't install onto your compter. To run it, enter the folder that you downloaded and _click_ on the file called `SQLiteStudio`. 
 
+If you'd like to put it in a permenant place:
+
+* **OS/X:** Drag to the applications folder
+
+* **Windows:** 
+* 
+  1) Move `SQLiteStudio` folder to somewhere (`Documents`, `Program Files`, etc...)
+
+  2) Enter the folder and right click on `SQLiteStudio` 
+  
+  3) Click `pin to start` from the context menu (menu that pops up when you click on things) 
+
 Open the [anaconda terminal](anaconda.md) to install [sqlite](https://docs.python.org/2/library/sqlite3.html) by typing the following: 
 
 `conda install sqlite -y`
