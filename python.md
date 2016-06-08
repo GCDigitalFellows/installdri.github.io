@@ -58,7 +58,7 @@ If the downloader does not work:
 
 2) extract the folder and rename it `nltk_data`
 
-3) Move the data inside the following folder on your computer: (Replace `hannah` with the username on your computer)
+3) Move the `nltk_data` folder inside the following folder on your computer: (Replace `hannah` with the username on your computer)
   * **Windows:** `C:\\Users\\hannah`
   * **OS/x, Linux:** `/Users/hannah/`
 
