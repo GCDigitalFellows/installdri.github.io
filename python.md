@@ -1,6 +1,6 @@
 Python Libraries:
 =================
-Install the packages for the Python course via the `conda` Python package system. Links to the libraries are provided **only** for reference.
+Install the libraries for the Python course via the `conda` Python package system. Links to the libraries are provided **only** for reference.
 
 1) open the [anaconda terminal](anaconda.md)
 
