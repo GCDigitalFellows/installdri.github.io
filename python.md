@@ -49,22 +49,20 @@ import nltk
 nltk.download('all', halt_on_error=False)
 ```
 
+This command will likely fail or hang when trying to download panlex_lite. If that happens, please kill the download (closing the terminal will work) and move on to the troubleshooting steps. 
+
 ###Troubleshooting
-If the downloader does not work, download the corpus by [clicking here](https://github.com/nltk/nltk_data/archive/gh-pages.zip) or use a local copy. Then 
+If the downloader does not work:
 
-1) Open an [anaconda terminal](anaconda.md)
+1) download the corpus by [clicking here](https://github.com/nltk/nltk_data/archive/gh-pages.zip) or get it from the usb
 
-2) type:
+2) extract the folder and rename it `nltk_data`
 
-```python
-import nltk
-nltk.data.path
-```
-1) Copy the data to **any** of the folders listed  by the nltk.data.path command.
+3) Move the data inside the following folder on your computer: (Replace `hannah` with the username on your computer)
+  * **Windows:** `C:\\Users\\hannah`
+  * **OS/x, Linux:** `/Users/hannah/`
 
-2) If none of them exist, then create the folder and copy the data there.
-
-3) Put everything in the `packages` folder in the top level of `nltk_data`. This means that the contents of your  `nltk_data` folder should be as follows:
+4) Move everything in the `packages` folder of `nltk_data` to the top level of the `nltk_data` folder. This means that the contents of your  `nltk_data` folder should be as follows:
 ```bash
 test:nltk_data hannah$ ls
 Makefile	     corpora	     index.xsl	    stemmers
@@ -73,7 +71,7 @@ chunkers	     help		       models		      tokenizers
 collections	  index.xml	   sentiment	    tools
 ```
 
-Check if it installed properly by opening a python terminal and typing
+Check if it is installed properly by opening a python terminal and typing
 
 ```python
 import nltk.book
