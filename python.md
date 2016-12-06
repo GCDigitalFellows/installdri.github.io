@@ -46,30 +46,10 @@ once in the python interpreter, you should see `>>>`. Then type (1st line then p
 
 ```python
 import nltk
-nltk.download('all', halt_on_error=False)
+nltk.download_shell()
 ```
 
-This command will likely fail or hang when trying to download panlex_lite. If that happens, please kill the download (closing the terminal will work) and move on to the troubleshooting steps. 
-
-###Troubleshooting
-If the downloader does not work:
-
-1) download the corpus by [clicking here](https://github.com/nltk/nltk_data/archive/gh-pages.zip) or get it from the usb
-
-2) extract the folder and rename it `nltk_data`
-
-3) Move the `nltk_data` folder inside the following folder on your computer: (Replace `hannah` with the username on your computer)
-  * **Windows:** `C:\\Users\\hannah`
-  * **OS/x, Linux:** `/Users/hannah/`
-
-4) Move everything in the `packages` folder of `nltk_data` to the top level of the `nltk_data` folder. This means that the contents of your  `nltk_data` folder should be as follows:
-```bash
-test:nltk_data hannah$ ls
-Makefile	     corpora	     index.xsl	    stemmers
-README.txt	   grammars	    misc		        taggers
-chunkers	     help		       models		      tokenizers
-collections	  index.xml	   sentiment	    tools
-```
+This command will likely hang when trying to download `panlex_lite`. Don't worry about it and just kill the download. 
 
 Check if it is installed properly by opening a python terminal and typing
 
