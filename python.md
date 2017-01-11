@@ -6,66 +6,28 @@ Install the libraries for the Python course via the `conda` Python package syste
 
 2) type the commands listed for each session: 
 
-Web Framework Development
+Twitter API
 --------------------------
-Install [flask](http://flask.pocoo.org/):
+Install [Tweepy](https://github.com/tweepy/tweepy):
 ```
-conda install flask -y
+pip install tweepy
 ```
 
-Time Series & Catagorical Data Analysis
+Quantative Analysis & Textual Analysis
 ----------------------------------------
-Install [numpy](http://www.numpy.org/), [scipy](https://www.scipy.org/), 
-[matplotlib](http://matplotlib.org/), & [pandas](http://pandas.pydata.org/):
+Should be installed in conda by default. Otherwise install [pandas](http://pandas.pydata.org/), and [sklearn](http://scikit-learn.org/stable/):
 ```
-conda install numpy -y
-conda install scipy -y
-conda install matplotlib -y
 conda install pandas -y
-```
-
-Machine Learning
-----------------
-Install everything from [Time Series & Catagorical Data Analysis](#time-series--catagorical-data-analysis)
-and [sklearn](http://scikit-learn.org/stable/):
-```
 conda install scikit-learn -y
 ```
 
-NLTK
-----
-
-Install the [NLTK](http://www.nltk.org/) library:
-
-```
-conda install nltk -y
-```
-While still in the conda shell, type `python`
-
-once in the python interpreter, you should see `>>>`. Then type (1st line then press enter, 2nd line then press enter):
-
-```python
-import nltk
-nltk.download_shell()
-```
-
-This command will likely hang when trying to download `panlex_lite`. Don't worry about it and just kill the download. 
-
-Check if it is installed properly by opening a python terminal and typing
-
-```python
-import nltk.book
-```
 
 Check other installs
 ====================
 Check if a library is installed by trying to import it into python. First type `python` and then once in the interpreter, you should see `>>>`. Then type:
 
 ```python
-import flask
-import scipy
+import tweepy
 import pandas
-import matplotlib
 import sklearn
-import nltk
 ```
