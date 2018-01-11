@@ -60,10 +60,11 @@ Check the following boxes on the installation menu:
  * Add to path
  * Register as default Python
 
-##References##
-[Anaconda Cheet Sheet](http://conda.pydata.org/docs/using/cheatsheet.html)
+## References ##
 
-[Jupyter Reference Sheet](https://damontallen.github.io/IPython-quick-ref-sheets/)
+* [Anaconda Cheet Sheet](http://conda.pydata.org/docs/using/cheatsheet.html)
+
+* [Jupyter Reference Sheet](https://damontallen.github.io/IPython-quick-ref-sheets/)
 
 Databases
 ==========
