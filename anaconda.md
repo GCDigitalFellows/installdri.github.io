@@ -1,7 +1,10 @@
-How to open an anaconda terminal: 
-=================================
+How to open a terminal: 
+=======================
+
 Windows:
 -----------
+In Windows, there are three terminal options: command prompt, git-bash shell, and anaconda prompt. These instructions are for opening an Anaconda prompt.
+
 ### Via Search:
 
 1) enter `Anaconda` into the search bar
@@ -20,7 +23,7 @@ Windows:
 
 Mac:
 ----
-Conda is built into the mac terminal, so you can follow the instructions for opening a shell:
+Conda is built into the mac terminal, so you can follow the instructions for opening the terminal (also called the shell):
 
 ### Via search:
 
