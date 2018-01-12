@@ -15,7 +15,7 @@ an error about a package failing, just shut down the install and move on to the 
 
 NLTK Data Using the GUI
 -----------------------
-1. In your Python environment run the following commands:
+1. In your Python environment (I use jupyter notebook) run the following commands:
 
 ```Python
     import nltk
@@ -29,25 +29,24 @@ Here's an example inside a Jupyter notebook:
 (May appear hidden behind your browser window or behind where you are working in Python).
 ![NLTK downloader](figs/downloader.png)
 
-3. From here, you can choose what you would like to download. We recommend that you download everything, so please select:
+3. From here, you can choose what you would like to download. We recommend that you download everything: 
+	* all packages
+	* all corpora
+	* everything from the NLTK book. 
+	
+This may take several minutes (depending on your internet connection). Some packages may fail installation due to being outdated - this is alright, and will not be a problem for Digital Research Institute.  
 
-```text
-all packages, all corpora, and everything from the NLTK book
-```
-
-
-Alternative NLTK data install sing the command line
+Alternative NLTK data install using the command line
 ----------------------------------------------------
  
 Open a Jupyter notebook type (1st line then press enter, 2nd line then press enter):
 
 ```python
 import nltk
-nltk.download_shell()
+nltk.download('all', halt_on_error=False
 ```
 
 This command will likely hang when trying to download `panlex_lite`. Don't worry about it and just kill the download.
-
 
 
 Test Install
@@ -55,9 +54,9 @@ Test Install
 When the installation is complete, close the NLTK Downloader and check your installation.  
 (You may need to restart Python). In your Python environment, run the following code:
 
-```Python
-	from nltk.corpus import brown
-  from nltk.book import *
+```python
+from nltk.corpus import brown
+from nltk.book import *
 ```
 ![figs/brown.png]
 If your code runs and nothing happens (no error message and nothing printed to the screen), congratulations! 
