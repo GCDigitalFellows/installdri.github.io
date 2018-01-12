@@ -4,7 +4,7 @@ A text editor is a simple notepad type application. For the DRI, we will be usin
 
 **Download sublime:** [sublime](https://www.sublimetext.com/)
 
-**Make it so commandline can see the program:**
+Optional: Enable opening sublime from the command line:
 
 [Windows](https://scotch.io/tutorials/open-sublime-text-from-the-command-line-using-subl-exe-windows)
 
@@ -54,7 +54,7 @@ Python
 ======
 Download the Anaconda distribution of Python. This provides Python and the Jupyter notebook environment. 
 
-**Download Python 3.5:** [Anaconda Python Distribution](https://www.continuum.io/downloads)
+**Download Python 3.6:** [Anaconda Python Distribution](https://www.continuum.io/downloads)
 
 Check the following boxes on the installation menu:
  * Add to path
@@ -73,19 +73,20 @@ Databases
 
 This doesn't install onto your compter. To run it, enter the folder that you downloaded and _click_ on the file called `SQLiteStudio`. 
 
-If you'd like to put it in a permenant place:
+Optional: If you'd like to put the program in a permenant place:
 
-* **OS/X:** Drag to the applications folder
+* **OS/X:** Drag the SQLiteStudio icon to the applications folder
 
 * **Windows:** 
-* 
+
   1) Move `SQLiteStudio` folder to somewhere (`Documents`, `Program Files`, etc...)
 
   2) Enter the folder and right click on `SQLiteStudio` 
   
   3) Click `pin to start` from the context menu (menu that pops up when you click on things) 
 
-Open the [anaconda terminal](anaconda.md) to install [sqlite](https://docs.python.org/2/library/sqlite3.html) by typing the following: 
+1. Open the [anaconda terminal](anaconda.md) to install [sqlite](https://docs.python.org/2/library/sqlite3.html). 
+2. In the terminal, type the following: 
 
 `conda install sqlite -y`
 
