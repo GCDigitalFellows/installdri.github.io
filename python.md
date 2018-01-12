@@ -25,7 +25,7 @@ conda install scikit-learn -y
 
 Textual Analysis
 -----------------
-Follow the [NLTK install instructions][nltk.md]
+Follow the [NLTK install instructions](nltk.md)
 
 Check installs:
 ====================
