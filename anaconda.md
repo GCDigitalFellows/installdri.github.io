@@ -11,7 +11,7 @@ In Windows, there are three terminal options: command prompt, git-bash shell, an
 
 2) click `Anaconda Prompt`:
 
-![anaconda_prompt](anaconda_prompt.png)
+![anaconda_prompt](figs/anaconda_prompt.png)
 
 ### Via start:
 
@@ -19,7 +19,7 @@ In Windows, there are three terminal options: command prompt, git-bash shell, an
 
 2) Click `All apps` -> `Anaconda` -> `Anaconda Prompt` :
 
-![anaconda_menu](anaconda_menu.png)
+![anaconda_menu](figs/anaconda_menu.png)
 
 Mac:
 ----
