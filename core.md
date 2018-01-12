@@ -92,7 +92,7 @@ Optional: If you'd like to put the program in a permenant place:
 
 A successful install should look similar to the following:
 
-![conda screenshot](https://github.com/GCDigitalFellows/installdri.github.io/blob/master/conda_install.png)
+![conda screenshot](figs/conda_install.png)
 
 
 Note: sqlite3 may be installed in Python by default.
