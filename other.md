@@ -1,8 +1,8 @@
-HTML/CSS/JavaScript
+HTML & CSS
 ===================
 **Install:** 
 * [Chrome](https://www.google.com/chrome/browser/desktop/)
-* [sublime](https://www.sublimetext.com/)
+* [Sublime](https://www.sublimetext.com/)
 
 Mapping
 =======
