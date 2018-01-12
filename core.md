@@ -30,7 +30,7 @@ sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/
 
 Command Line
 ============
-**Windows**: [windows terminal is git-bash](https://git-for-windows.github.io/)
+**Windows**: install [git-bash](https://git-for-windows.github.io/) for linux operating system commands
 
 **OSX:**
 
