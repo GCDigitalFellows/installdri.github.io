@@ -12,7 +12,7 @@ Twitter API
 --------------------------
 Install [Tweepy](https://github.com/tweepy/tweepy):
 ```
-pip install tweepy
+conda install -c conda-forge tweepy -y
 ```
 
 Quantative Analysis & Textual Analysis
