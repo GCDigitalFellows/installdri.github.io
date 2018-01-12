@@ -58,7 +58,9 @@ When the installation is complete, close the NLTK Downloader and check your inst
 from nltk.corpus import brown
 from nltk.book import *
 ```
-![figs/brown.png]
+In a jupyter notebook, the first command appears as:
+![confirmation that install didn't fail](figs/brown.png)
+
 If your code runs and nothing happens (no error message and nothing printed to the screen), congratulations! 
 You have successfully installed NLTK!
 
