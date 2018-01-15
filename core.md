@@ -51,6 +51,7 @@ Git
 **Register:** [Github](https://github.com/)
 
 Git installs as a commandline tool. To check that it has been installed properly, open a [terminal](https://github.com/GCDigitalFellows/installdri.github.io/blob/master/anaconda.md) and type `git`. The terminal should then print the following:
+
 ![screenshot of git help screen dump](figs/gitinstall.png)
 
 Note: While this is an OSX terminal, the same message should print in a Windows git-bash terminal. It may not print in an anaconda command prompt nor a Window's command prompt terminal because it requires further work for those terminals to recognize this installtion of git. 
