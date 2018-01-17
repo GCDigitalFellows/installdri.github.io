@@ -21,7 +21,7 @@ Download [QGIS](http://www.kyngchaos.com/software/qgis). It contains multiple .d
 
 4) QGIS
 
-Note: The QGIS Python is independent of the Anaconda Python used throughout the DRI. If you need QGIS to work with your system Python, come speak to the Digital Fellows during PUG or office hours or email gc.digitalfellows@gmail.com.
+Note: The QGIS Python is independent of the Anaconda Python used throughout the DRI. You must install the QGIS numpy and matplotlib, even if they are already installed in your system. If you need QGIS to work with your system Python, come speak to the Digital Fellows during PUG or office hours or email gc.digitalfellows@gmail.com.
 
 #### Troubleshooting
 
