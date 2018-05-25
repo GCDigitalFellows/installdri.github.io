@@ -9,9 +9,7 @@ conda install nltk -y
 ```
 
 You then need to install the data that NLTK relies on to function. This may take several minutes 
-(depending on your internet connection). Some packages may fail 
-installation due to being outdated - this is alright, and will not be a problem for the Digital Research Institute. If you get 
-an error about a package failing, just shut down the install and move on to the [install test](#test-install).
+(depending on your internet connection). Some packages may fail installation due to being outdated - this is alright, and will not be a problem for the Digital Research Institute. If you get an error about a package failing, just shut down the install and move on to the [install test](#test-install).
 
 NLTK Data Using the GUI
 -----------------------
@@ -57,6 +55,7 @@ When the installation is complete, close the NLTK Downloader and check your inst
 ```python
 from nltk.corpus import brown
 from nltk.book import *
+nltk.help.upenn_tagset("NN")
 ```
 In a jupyter notebook, the first command appears as:
 ![confirmation that install didn't fail](figs/brown.png)
@@ -64,4 +63,29 @@ In a jupyter notebook, the first command appears as:
 If your code runs and nothing happens (no error message and nothing printed to the screen), congratulations! 
 You have successfully installed NLTK!
 
+Troubleshooting
+----------------
+If you get the following error:
+```python-traceback
+Resource 'help/tagsets/PY3/upenn_tagset.pickle' not found.
+Please use the NLTK Downloader to obtain the resource: 
+>>> nltk.download('tagsets')
+Searched in:
+- '/Users/user/nltk_data'
+- '/usr/share/nltk_data'
+- '/usr/local/share/nltk_data'
+- '/usr/lib/nltk_data'
+- '/usr/local/lib/nltk_data'
+- ''
+```
+Then use the following steps to resolve it:
+1. Search for the `nltk_data` folder on your computer
+2. Inside the `nltk_data` folder, navigate to the `help` folder
+3. Inside the `help` folder, you should find a file called `tagsets.zip`
+4. Unzip that file
+5. run the following two lines of code:
+```python
+import nltk
+nltk.help.upenn_tagset("NN") 
+```
 
