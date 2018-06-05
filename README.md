@@ -9,7 +9,7 @@ Session | Software
 [HTML/CSS](https://github.com/DHRI-Curriculum/html-css) | [VScode](sections/vscode.md), [Firefox](sections/firefox.md)
 [Mapping](https://github.com/DHRI-Curriculum/mapping) | [QGIS](sections/qgis.md)
 [Twitter API](https://github.com/DHRI-Curriculum/twitter-api) | [Python](sections/python.md), [Tweepy](sections/tweepy.py), [Conda](sections/conda.md), [Jupyter](sections/jupyter.md)
-Website | [VScode](sections/vscode.md), [Git](sections/git.md), [Firefox](sections/firefox.md), [Jekyll](sections/jekyll.md)
 
+<!--Website | [VScode](sections/vscode.md), [Git](sections/git.md), [Firefox](sections/firefox.md), [Jekyll](sections/jekyll.md))>
 
 
