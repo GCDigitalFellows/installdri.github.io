@@ -52,7 +52,7 @@ For our workshops, we will be using Visual Studio Code. Not only is Visual Studi
 
 ![VSCode top level menu bar, View is the fourth option down](../images/osx/vscode/path01.png)
 
-3. Command pallet looks like this. *Type* `shell` into the text bar. Then choose "Shell Command: Install `code` command in PATH" 
+3. The `Command Pallet` menu looks like this. *Type* `shell` into the text bar. Then choose "Shell Command: Install `code` command in PATH" 
 
 ![textbar with menu options underneath](../images/osx/vscode/path02.png)
 
