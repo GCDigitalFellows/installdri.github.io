@@ -21,7 +21,7 @@ For our workshops, we will be using Visual Studio Code. Not only is Visual Studi
  
  ![select start menu folder installation window, with a browse button to enable you to search for a folder on the start menu to ](../images/windows/vscode/vscode04.png)
  
- 4c. Windows only: *check* the box that says `Add to PATH`, which is the fifth (last) box. All the other boxes are optional. Then *click* `Next`:
+ 4c. Windows only: Please *check* the box that says `Add to PATH`, which is the fifth (last) box. Check the other boxes at your own discretion. Then *click* `Next`:
  
  ![Select additional tools menu of check boxes. The options are (top to bottom): i. Create a desktop icon, ii. Add `Open With Code` action to Windows Explorer file context menu, iii. Add `Open With Code` action to Windows Explorer directory context menu, iv. Register code as an editor for supported file types, v. Add to Path (available after restart)](../images/windows/vscode/vscode05.png)
 
