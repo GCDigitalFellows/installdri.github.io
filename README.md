@@ -2,7 +2,7 @@ Session | Software
 --------| -------------------------
 [Command Line](https://github.com/DHRI-Curriculum/command-line) | [VScode](sections/vscode.md), 
 [Git](https://github.com/DHRI-Curriculum/git) | [VScode](sections/vscode.md), [git](sections/git.md)
-[Python](https://github.com/DHRI-Curriculum/python) | [vscode](sections/vscode.md), [Python](sections/python.md), [Conda](sections/conda.md), [Jupyter](sections/jupyter.md)
+[Python](https://github.com/DHRI-Curriculum/python) | [VScode](sections/vscode.md), [Python](sections/python.md), [Conda](sections/conda.md), [Jupyter](sections/jupyter.md)
 [Databases](https://github.com/DHRI-Curriculum/databases) | [Python](sections/python.md), [Pandas](sections/pandas.md), [SQLite](sections/sqlite.md),[Conda](sections/conda.md), [Jupyter](sections/jupyter.md)
 [Text-Analyis](https://github.com/DHRI-Curriculum/text-analysis) | [Python](sections/python.md), [NLTK](sections/pandas.md),[Conda](sections/conda.md), [Jupyter](sections/jupyter.md)
 [Machine Learning](https://github.com/DHRI-Curriculum/machine-learning)| [Python](sections/python.md), [Pandas](sections/pandas.md), [NLTK](sections/pandas.md), [Sklearn](sections/sklearn.md), ([Conda](sections/conda.md), [Jupyter](sections/jupyter.md)
