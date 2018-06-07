@@ -24,7 +24,7 @@ jupyter notebook
 
 ![rename window with text box to enter new name and cancel and rename buttons](../images/osx/jupyter/notebook04.png)
 
-8. The light gray boxes are Python interpreter cells in which code can be executed. Here, we write the code `print("hello world"))`. 
+8. The light gray boxes are Python interpreter cells in which code can be executed. Here, we write the code `print("hello world")`. 
 
 ![light gray code cell with print("hello world") in it](../images/osx/jupyter/notebook05.png)
 
