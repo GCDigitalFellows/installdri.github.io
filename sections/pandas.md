@@ -1,6 +1,6 @@
 # Pandas
 
-[Pandas](https://pandas.pydata.org/) is the Python Data Analysis library. It is installed via the [conda](conda.md) package managment system. 
+[Pandas](https://pandas.pydata.org/) is the Python Data Analysis library. It is installed via the [conda](conda.md) package managment system and may already be installed in your environment.
 
 ## Install Pandas
 
@@ -11,7 +11,7 @@
 conda install pandas -y
 ```
 
-The terminal should print something like the following (parts are omitted for length):
+The terminal should print something like the following:
 
 ```bash
 Fetching package metadata .............
@@ -25,7 +25,7 @@ The following NEW packages will be INSTALLED:
     certifi:         2018.4.16-py36_0        conda-forge
     libcxx:          4.0.1-h579ed51_0      
 
-.............................................................
+        .... omitted text ....
 
 pandas-0.23.0- 100% |########################################| Time: 0:00:03   4.12 MB/s
 wheel-0.31.1-p 100% |########################################| Time: 0:00:00   2.89 MB/s
