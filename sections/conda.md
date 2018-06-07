@@ -1,5 +1,5 @@
 # Conda Package Management
-Programming libraries get their name from the physical equivalent – just like the GC library provides books that can help a project along, programming libraries provide code encapsulated as functions and objects to carry out tasks common to the domain of the library. Libraries need to be installed into programming environments to be used - in our case that's probably an Anaconda environment. To do so, we use the `conda` package management system. 
+Programming libraries get their name from the physical equivalent – just like the GC library provides books that can help a project along, programming libraries provide code encapsulated as functions and objects to carry out tasks common to the domain of the library. Libraries need to be installed into programming environments to be used - in our case that's probably an [Anaconda](python.md) environment. To do so, we use the `conda` package management system. 
 
 ## How to install a Python library 
 

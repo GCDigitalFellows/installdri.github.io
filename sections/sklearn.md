@@ -1,6 +1,6 @@
 # Scikit-Learn
 
-Scikit-Learn is a library for doing [machine learning](http://scikit-learn.org/stable/index.html) in Python. It is installed via the [conda](conda.md) package managment system.
+[Scikit-Learn](http://scikit-learn.org/stable/index.html) is a library for doing machine learning in Python. It is installed via the [conda](conda.md) package managment system.
 
 ## Install Scikit-Learn
 

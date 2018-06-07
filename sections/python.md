@@ -2,7 +2,7 @@ Download the [Anaconda](https://www.anaconda.com/download/) is distribution of P
 
 ## Download Python 3.6: 
 
-1. Go to https://www.anaconda.com/download/ 
+1. Download Anaconda at:  https://www.anaconda.com/download/ 
  
  2. *Click* on the Python 3.6 button:
 

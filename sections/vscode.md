@@ -2,6 +2,8 @@
 A text editor is a simple notepad type application. For the DRI, we will be using the VSCode text editor because it supports [syntax highlighting](https://en.wikipedia.org/wiki/Syntax_highlighting), is free and open source, and is consistent across OSX, Windows, and Linux systems.
 
 # Install
+0. Download VSCode at https://code.visualstudio.com/ 
+
 1. *Click* on the VScode installer in your downloads folder:
 
 ![installer shortcut - shaded blue box with ribbon logo. It has something like `VSCodeSetup-` at the front of its filename](../images/windows/vscode/vscode00.png)

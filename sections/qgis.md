@@ -3,28 +3,36 @@
 [QGIS](http://www.qgis.org/en/site/) is a free and open source Geographical Information System. 
 
 
+## Download
+* Download __QGIS Version 2.18__ from https://qgis.org/en/site/forusers/download.html:
 
-## Windows/Linux Install:
+![list of qgis download options (version 3.0 64 bit, 3.0, 32 bit, 2.18 64 bit, 2.18 32 bit) with 2.18 64bit circled](../images/windows/qgis/qgis_download.png)
 
- [QGIS](http://www.qgis.org/en/site/)
-* Click on the 'QGIS standalone installer' and follow the prompts. 
+## Windows Install:
 
-**Mac OS/X:**
-1. On a **Mac**, go to the [KyngChaos](http://www.kyngchaos.com/software/qgis) page.
-	![kingchaos](figs/qdown.png)
-2. Something like this will download
-	![download](figs/qgisdownload.png)
-3. You MUST install the items **IN NUMERICAL ORDER**. It is very important to follow the numbers. 
-4. Follow all of the prompts for all of the packages. 
+ Follow the instructions provided by the installer you downloaded.  
 
-**Launch** QGIS. Your new blank map project will look like this:
+## Mac OS/X: Download
+When you click on the installer, you will see this page:
 
-![blank](figs/01_OpenQGIS.png)
+![](../images/osx/qgis.png)
 
-Note: The QGIS Python is independent of the Anaconda Python used throughout the DRI. You must install the QGIS numpy and matplotlib, even if they are already installed in your system. If you need QGIS to work with your system Python, come speak to the Digital Fellows during PUG or office hours or email gc.digitalfellows@gmail.com.
+ You MUST install the items **IN NUMERICAL ORDER** using the provided installers:
 
-__Attribution__: Instructions are modified from [Michelle A. McSweeney](https://github.com/michellejm/Intro-QGIS-CUNY-FemSTEM/blob/master/Install-QGIS.md)
+1. GDAL
+2. NumPy
+3. Matplotlib
+4. QGIS
+
+The QGIS Python is independent of the Anaconda Python used elsewhere. You must install the QGIS numpy and matplotlib, even if they are already installed in your system. If you need QGIS to work with your system Python, please follow the listed instructions and then speak to the instructor privately.
 
 #### Troubleshooting
-
 You may need to change [security & privacy settings](https://support.apple.com/en-us/HT202491) to allow app downloads from outside sources.
+
+## Test Install
+ Launch __QGIS 2.18 Desktop 2.18.20__. A new project will look like this:
+
+![qgis installer](../images/windows/qgis/qgis09.png)
+
+Instructions are modified from [Michelle A. McSweeney](https://github.com/michellejm/Intro-QGIS-CUNY-FemSTEM/blob/master/Install-QGIS.md)
+
