@@ -1,6 +1,7 @@
-For our workshops, we will be using Visual Studio Code. Not only is Visual Studio Code free and open source, but it is also consistent across OSX, Windows, and Linux systems.
+# Visual Studio Code
+A text editor is a simple notepad type application. For the DRI, we will be using the VSCode text editor because it supports [syntax highlighting](https://en.wikipedia.org/wiki/Syntax_highlighting), is free and open source, and is consistent across OSX, Windows, and Linux systems.
 
-# VSCode
+# Install
 1. *Click* on the VScode installer in your downloads folder:
 
 ![installer shortcut - shaded blue box with ribbon logo. It has something like `VSCodeSetup-` at the front of its filename](../images/windows/vscode/vscode00.png)
