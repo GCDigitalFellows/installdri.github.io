@@ -1,9 +1,12 @@
 # Visual Studio Code
 A text editor is a simple notepad type application. For the DRI, we will be using the VSCode text editor because it supports [syntax highlighting](https://en.wikipedia.org/wiki/Syntax_highlighting), is free and open source, and is consistent across OSX, Windows, and Linux systems.
 
-# Install
-0. Download VSCode at https://code.visualstudio.com/ 
+## Install
+Download VSCode at https://code.visualstudio.com/ 
+* [OS/X instructions](#os/x)
+* [Windows instructions](#windows)
 
+### Windows
 1. *Click* on the VScode installer in your downloads folder:
 
 ![installer shortcut - shaded blue box with ribbon logo. It has something like `VSCodeSetup-` at the front of its filename](../images/windows/vscode/vscode00.png)
@@ -40,14 +43,18 @@ A text editor is a simple notepad type application. For the DRI, we will be usin
 
 ![setup finished window with launch visual studio code checkbox](../images/windows/vscode/vscode08.png)
 
-8. VSCode should now be installed. You should see something like this window when you launch VSCode:
+8. [Test Install](#test-install)
 
-![main vscode screen with side panel menu buttons: file explorer, search, git integration, debugger/variable explorer, extension manager. Second panel is file browser to find file to open, and third panel is to chose customizations](../images/windows/vscode/vscode09.png)
+### OS/X
 
-# Adding VSCode to PATH in OSX
- To be able to open code from the osx terminal, we need to [add it to path](https://code.visualstudio.com/docs/setup/mac). 
+To open code from the osx terminal (command line), we need to [add it to path](https://code.visualstudio.com/docs/setup/mac) after the install.
 
-1. Open VSCode via your preferred method (applications folder or search bar.) *Clock* on the icon:
+1. [Download VSCode](#download)
+
+1. Drag the Visual Studio Code application to `Applications` folder. 
+![osx finder window showing visual studio code icon](../images/osx/vscode/vscode.png)
+
+1. Open VSCode via your preferred method.  *Click* on the icon:
 
 ![Visual Studio Code icon - black box with blue ribbon inside](../images/osx/vscode/path00.png)
 
@@ -62,3 +69,13 @@ A text editor is a simple notepad type application. For the DRI, we will be usin
 4. Once the install is finished, you should be able to open a [terminal](osx_terminal.md) and *type* `code` and that should launch VSCode
 
 ![OS/X open terminal with the code command](../images/osx/vscode/path03.png)
+
+8. [Test Install](#test-install)
+
+## Test Install
+
+VSCode should now be installed. You should see something like this window when you launch VSCode:
+
+![main vscode screen with side panel menu buttons: file explorer, search, git integration, debugger/variable explorer, extension manager. Second panel is file browser to find file to open, and third panel is to chose customizations](../images/windows/vscode/vscode09.png)
+
+Ignore the warnings about git not being installed. 
