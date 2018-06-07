@@ -2,7 +2,7 @@
 
 1. Install [Node.js](https://nodejs.org/en/). Use the __stable__ version
 
-2. Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/) if it's not already installed on your computer. You might want to install ruby using homebrew for the same reasons as above.
+2. Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/) if it's not already installed on your computer. 
 
 3. Clone this repo and `cd` into the new repo directory:
 
