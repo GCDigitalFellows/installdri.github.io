@@ -10,12 +10,19 @@
 
 ## Windows Install:
 
- Follow the instructions provided by the installer you downloaded.  
+1. [Download](#download)
 
-## Mac OS/X: Download
-When you click on the installer, you will see this page:
+2. Follow the instructions provided by the installer you downloaded.  
 
-![](../images/osx/qgis.png)
+3. [Test install](#test-install)
+
+## Mac OS/X:
+
+1. [Download](#download)
+
+2. When you click on the installer, you will see this page:
+
+![osx file explorer showing 0. 0. Readme_Install.rtf, 1. gdal.pkg, 2. numpy.pkg, 3. matplotlib.pkg, 4. qgis.pkg, gdal extras folder, readme.rtf, License, GPL license](../images/osx/qgis.png)
 
  You MUST install the items **IN NUMERICAL ORDER** using the provided installers:
 
@@ -25,6 +32,8 @@ When you click on the installer, you will see this page:
 4. QGIS
 
 The QGIS Python is independent of the Anaconda Python used elsewhere. You must install the QGIS numpy and matplotlib, even if they are already installed in your system. If you need QGIS to work with your system Python, please follow the listed instructions and then speak to the instructor privately.
+
+3. [Test install](#test-install)
 
 #### Troubleshooting
 You may need to change [security & privacy settings](https://support.apple.com/en-us/HT202491) to allow app downloads from outside sources.

@@ -11,6 +11,7 @@ On OS/X, git is part of the xcode command line tools. To install them:
 ```bash
 xcode-select --install
 ```
+3. [Test install](#test-install)
 
 # Windows
 As part of installing git, install the gitbash command line environment so that the command line is consistent across Windows, OSX and Linux.
@@ -36,10 +37,13 @@ https://git-scm.com/download/win
 7. *Click* through the rest of the install, leaving the defaults, and then *click* `Finish` on the last window: 
 ![final installation window that says "completing the git setup wizard"](../images/windows/git/git13.png)
 
+3. [Test install](#test-install)
+
 ## Test Install
 
-Test that git is installed. 
-1. Open a [windows](windows_terminal.md) or [OSX](osx_terminal.md) terminal. 
+Test that git is installed:
+
+1. Open a [windows](windows_terminal.md) or [OS/X](osx_terminal.md) terminal. 
 
 2. Type the following into the terminal:
 ```bash

@@ -1,4 +1,4 @@
-Download the [Anaconda](https://www.anaconda.com/download/) is distribution of Python. This provides a Python programming environment, the Jupyter notebook environment, and the [conda](conda.md) package management system. 
+ [Anaconda](https://www.anaconda.com/download/) is a distribution of Python. It provides a Python programming environment, the Jupyter notebook environment, and the [conda](conda.md) package management system. 
 
 ## Download Python 3.6: 
 
@@ -34,7 +34,7 @@ Download the [Anaconda](https://www.anaconda.com/download/) is distribution of P
 ![menu option to also install vscode](../images/windows/anaconda/anaconda10.png)
 
 7. This is the final window. *Click* `Finish`:
-![](../images/windows/anaconda/anaconda11.png)
+![final installation window for anaconda, has two checkboxes: learn more and learn how to get started](../images/windows/anaconda/anaconda11.png)
 
 ## Test
 
