@@ -27,6 +27,7 @@
 ![advanced installation options window. Has two checkboxes: Add anaconda to PATH environment variables, and `Register Anaconda as my default Python`](../images/windows/anaconda/anaconda07.png)
 
 5. The installation may take a while, so go grab a snack or check email: 
+
 ![installation progress bar](../images/windows/anaconda/anaconda08.png)
 
 6. *Click* `Skip` since VSCode is already installed: 
@@ -34,6 +35,7 @@
 ![menu option to also install vscode](../images/windows/anaconda/anaconda10.png)
 
 7. This is the final window. *Click* `Finish`:
+
 ![final installation window for anaconda, has two checkboxes: learn more and learn how to get started](../images/windows/anaconda/anaconda11.png)
 
 ## Test
