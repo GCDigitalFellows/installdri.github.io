@@ -34,6 +34,7 @@
 ![menu option to also install vscode](../images/windows/anaconda/anaconda10.png)
 
 7. This is the final window. *Click* `Finish`:
+
 ![final installation window for anaconda, has two checkboxes: learn more and learn how to get started](../images/windows/anaconda/anaconda11.png)
 
 ## Test
