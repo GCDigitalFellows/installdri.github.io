@@ -54,7 +54,7 @@ Solving package specifications: .
 #
 numpy                     1.14.3          py36_blas_openblas_200  [blas_openblas]  conda-forge
 ```
-Test your install by opening a python interpreter by typing `python` into the terminal. You should see something like:
+Test your install by opening a python interpreter (REPL) by typing `python` into the terminal. You should see something like:
 
 ```python
 Python 3.6.4 | packaged by conda-forge | (default, Dec 23 2017, 16:54:01) 

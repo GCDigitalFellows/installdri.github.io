@@ -7,20 +7,17 @@
 3. Clone this repo and `cd` into the new repo directory:
 
     ```shell
-    git clone git@github.com:GCDigitalFellows/gcdigitalfellows.github.io.git
-    cd gcdigitalfellows.github.io
+    git clone https://github.com/GCDigitalFellows/template
+    cd template
     ```
 
 4. Install node and ruby components:
 
     ```shell
     npm install jekyll
-    sudo gem install sass -v 3.4.22
     ```
-    
-5. Run the update data script 
-   ```shell
-   node get_data
-   ```
- Try to resolve `Error: Cannot find module 'X'` error with `npm install X`. Repeat until all packages are installed.
- 
+
+5. Run the site using:
+```shell
+jekyll serve
+```

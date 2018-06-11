@@ -22,22 +22,44 @@ https://git-scm.com/download/win
 2. *Click* on the git installer:
 ![git installation icon, looks like a tree branch inside 4 colored squares](../images/windows/git/git00.png)
 
-3. *Click* through the installation steps (keeping the defaults) until you reach the "Choosing the default editor used by Git" window. Select `Visual Studio Code` as the default editor. *Click* `Next`:
+3. Accept the license and *click* `Next`:
+ ![license acceptance window](../images/windows/git/git01.png)
+
+4. Select the installation folder, default is fine. *Click* `Next`:
+![installation folde browser with text window showing folder path](../images/windows/git/git02.png)
+
+5. Select the componenets to be installed, the default is fine: 
+
+![list of check boxes showing install options: additiona icons, on the desktop, Windows Explorer integration, Git Bash, Git GUI, Git LFS, Associate *.git configuration files with the default text editor, associate .sh files to be run with bash,  use a true type font in all console windows, check daily for git for windows, check daily for git console updates](../images/windows/git/git03.png)
+
+- Windows Only: select start menu folder (default is fine):
+![](../images/windows/git/git04.png)
+
+6. *Click* through the installation steps (keeping the defaults) until you reach the "Choosing the default editor used by Git" window. Select `Visual Studio Code` as the default editor. *Click* `Next`:
 
 ![installation menu containing drop down of editor options: nano, vim, notepad++, visual studio code, visual studio code insiders](../images/windows/git/git06.png)
 
-5. Choose the "Use Git from the Windows Command Prompt" radio button and then *click* `Next`:
+7. Choose the "Use Git from the Windows Command Prompt" radio button and then *click* `Next`:
 
 ![three radio buttons: use git from git bash, use git from windows command prompt, use git and optional unix tools from the windows command prompt](../images/windows/git/git07.png) 
 
-6. *Click* through the next few installation windows using the defaults. On the configureing the terminal emulator to use with Git Bash window, choose the "Use Windows default console window" option:
+9. Choose the HTTPS transport backend (the default is fine). *Click* `Next`: ![](../images/windows/git/git08.png)
+
+10. Configure the line ending conversions (the default is fine). *Click* `Next`:![](../images/windows/git/git09.png)
+
+11. On the 'configureing the terminal emulator to use with Git Bash' window, choose the "Use Windows default console window" option:
 
 ![two radio buttons: USe MinTTY, Use Windows default console window](../images/windows/git/git10.png)
 
-7. *Click* through the rest of the install, leaving the defaults, and then *click* `Finish` on the last window: 
+12. Configure the extra options (the defaults are fine). *Click* `Next`:
+![](../images/windows/git/git11.png)
+
+13. VSCode should now be installing: ![](../images/windows/git/git12.png)
+
+14. *Click* through the rest of the install, leaving the defaults, and then *click* `Finish` on the last window: 
 ![final installation window that says "completing the git setup wizard"](../images/windows/git/git13.png)
 
-3. [Test install](#test-install)
+14. [Test install](#test-install)
 
 ## Test Install
 
