@@ -18,25 +18,37 @@
  
  ![initial installation image](../images/windows/anaconda/anaconda03.png)
 
-3. Keep clicking through the install until you reach this window. Install Anaconda only for yourself by choosing the just for me radio button. *Click* `Next`:
+ 3. Accept the license by *clicking* `I Agree`:
+ 
+![licence agreement](../images/windows/anaconda/anaconda04.png)
+
+3. Install Anaconda only for yourself by choosing the just for me radio button. *Click* `Next`:
 
 ![radio menu, select the 1st "just me" option](../images/windows/anaconda/anaconda05.png)
 
+4. Choose the location to install anaconda (the default is fine). *Click* `Next`:
+
+![text box with path for default Anaconda install and browse button ](../images/windows/anaconda/anaconda06.png)
+
 4. Keep clicking through using the defaults until you reach the Advanced Installation options. Select the "Register Anaconda as my default Python" check box. Then *click* `Next`: 
 
-![advanced installation options window. Has two checkboxes: Add anaconda to PATH environment variables, and `Register Anaconda as my default Python`](../images/windows/anaconda/anaconda07.png)
+![advanced installation options window. Has two check boxes: Add anaconda to PATH environment variables, and `Register Anaconda as my default Python`](../images/windows/anaconda/anaconda07.png)
 
 5. The installation may take a while, so go grab a snack or check email: 
 
 ![installation progress bar](../images/windows/anaconda/anaconda08.png)
 
-6. *Click* `Skip` since VSCode is already installed: 
+6. When finished, the window will list the location of the Anaconda installer. *Click* `Next`:
+
+![Full progress bar and printed output listing location of Anaconda files](../images/windows/anaconda/anaconda09.png)
+
+7. *Click* `Skip` if VSCode is already installed:
 
 ![menu option to also install vscode](../images/windows/anaconda/anaconda10.png)
 
-7. This is the final window. *Click* `Finish`:
+8. This is the final window. *Click* `Finish`:
 
-![final installation window for anaconda, has two checkboxes: learn more and learn how to get started](../images/windows/anaconda/anaconda11.png)
+![final installation window for anaconda, has two check boxes: learn more and learn how to get started](../images/windows/anaconda/anaconda11.png)
 
 ## Test
 
