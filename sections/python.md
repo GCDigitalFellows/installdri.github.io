@@ -30,9 +30,9 @@
 
 ![text box with path for default Anaconda install and browse button ](../images/windows/anaconda/anaconda06.png)
 
-4. Keep clicking through using the defaults until you reach the Advanced Installation options. Select the "Register Anaconda as my default Python" check box. Then *click* `Next`: 
+4. On the Advanced Installation options, page select both check boxes: "Add Anaconda to my PATH environment variable" and "Register Anaconda as my default Python". Then *click* `Next`: 
 
-![advanced installation options window. Has two check boxes: Add anaconda to PATH environment variables, and `Register Anaconda as my default Python`](../images/windows/anaconda/anaconda07.png)
+![advanced installation options window. Has two check boxes: Add anaconda to PATH environment variables, and `Register Anaconda as my default Python`](../images/windows/anaconda/anacondapath.png)
 
 5. The installation may take a while, so go grab a snack or check email: 
 
