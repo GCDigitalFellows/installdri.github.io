@@ -84,7 +84,7 @@ Test that git is installed:
  git
  ```
 
-The terminal should print something like:
+The terminal should print something like (note that this is truncated):
 
 ```bash
 usage: git [--version] [--help] [-C <path>] [-c name=value]
